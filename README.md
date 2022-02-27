@@ -6,7 +6,7 @@ Follow these steps:
 	• https://www.python.org/downloads/
 	• https://pyautogui.readthedocs.io/en/latest/install.html
 	
-• Step 2: Download .CSV and .py files from GitHub (save all in one file location)
+• Step 2: Download .CSV and .py files from GitHub (click on the file on the main github branch, click raw, right click and click save as, change the file extension from .txt to .py or .csv (collegeemailer and position need .py, collegenames and collegeemails need .csv), make save all files in one folder on your PC. 
 
 • Step 3: Press the Windows key, type IDLE and press enter. Open position.py and collegeemailer.py (File > Open > (location of collegeemailer.py and position.py) and open both .py files)
 
