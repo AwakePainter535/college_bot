@@ -14,10 +14,11 @@ x = 0 #startine
 i = 499 #endline
 while x <= i:
     time.sleep(1)
-    pyautogui.click(x=2055, y=132) #click on compose
+    pyautogui.click(x=3936, y=162) #click on compose
     time.sleep(0.3)
     pyautogui.write(emails[x][0]) #write name into receipient field
     time.sleep(0.3)
+    pyautogui.press('enter')
     pyautogui.press('tab') #tab to subject line
     time.sleep(0.3)
     pyautogui.write("Attending ") #Writing on subject line
