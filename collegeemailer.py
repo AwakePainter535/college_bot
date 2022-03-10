@@ -14,7 +14,7 @@ x = 0 #startine
 i = 499 #endline
 while x <= i:
     time.sleep(1)
-    pyautogui.click(x=3936, y=162) #click on compose
+    pyautogui.click(x= , y= ) #FILL IN X,Y values of compose button from position.py click on compose
     time.sleep(0.3)
     pyautogui.write(emails[x][0]) #write name into receipient field
     time.sleep(0.3)
