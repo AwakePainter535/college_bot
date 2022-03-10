@@ -14,17 +14,17 @@ x = 0 #startine
 i = 499 #endline
 while x <= i:
     time.sleep(1)
-    pyautogui.click(x,y values from position.py) #click on compose
+    pyautogui.click(x=2055, y=132) #click on compose
     time.sleep(0.3)
     pyautogui.write(emails[x][0]) #write name into receipient field
     time.sleep(0.3)
-    pyautogui.click(x,y values from position.py) #click on subject line
+    pyautogui.press('tab') #tab to subject line
     time.sleep(0.3)
     pyautogui.write("Attending ") #Writing on subject line
     pyautogui.write(names[x][0]) #Writing on subject line
     pyautogui.write(" in the Fall") #Writing on subject line
     time.sleep(0.3)
-    pyautogui.click(x,y values from position.py) #click on email body
+    pyautogui.press('tab') #tab to email body
     time.sleep(0.3)
     pyautogui.write("Hi there, my name is ENTER_NAME and I am currently a senior at ENTER_HIGHSCHOOL in ENTER_STATE. I am planning on attending ") #Writing on email body
     pyautogui.write(names[x][0]) #Writing on email body
@@ -35,5 +35,5 @@ while x <= i:
     pyautogui.press('enter') #paragraph break
     time.sleep(0.3)
     pyautogui.write("All the best, ENTER_NAME.") #Writing on email body
-    pyautogui.click(x,y values from position.py)#clicking send
+    pyautogui.hotkey('ctrl', 'enter') #hotkey send email
     x = x + 1
